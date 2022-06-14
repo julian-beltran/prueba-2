@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DetalleLibroComponent } from './detalle-libro/detalle-libro.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DetalleLibroComponent
   ],
   imports: [
     BrowserModule,

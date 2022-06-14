@@ -17,6 +17,6 @@ export class LibrosService {
   }
 
   public listarDetalle(id: number){
-   // return this.http.get<detalle[]>(`${this.url}${id}`);
+    return this.http.get<Libros[]>(`${this.url}${id}`);
   }
 }
